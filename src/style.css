@@ -55,6 +55,7 @@ footer {
     padding: 100px;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 64px;
 }
 footer h3 {
     font-size: 20px;
@@ -74,9 +75,6 @@ footer li {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-.about-this-website-section {
-    margin-left: 20px;
 }
 
 @media (max-width: 800px) {
