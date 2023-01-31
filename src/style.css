@@ -45,6 +45,9 @@ header a {
     display: inline-block;
     margin-top: 32px;
 }
+main {
+    background-color: white;
+}
 footer {
     background-image: linear-gradient(rgba(39,32,68,0.8),rgba(39,32,68,0.8)),
     url("../src/images/athens-footer-img.jpg");
@@ -76,6 +79,37 @@ footer li {
     padding: 0;
     margin: 0;
 }
+.why-athens-section {
+    padding: 100px;
+    color: #272044; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 64px;
+}
+.why-athens-section img {
+    max-width: 100%;
+}
+.why-athens-section h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 0px 0px 18px 0px;
+}
+.why-athens-section h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+    opacity: 0.3;
+    text-transform: uppercase;
+    margin: 0px 0px 18px 0px;
+}
+.why-athens-section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.7;
+}
 
 @media (max-width: 800px) {
     header {
@@ -100,6 +134,19 @@ footer li {
         font-size: 10px;
     }
     footer p, footer a {
+        font-size: 8px;
+    }
+    .why-athens-section {
+        grid-template-columns: 1fr;
+        padding: 50px;
+    }
+    .why-athens-section h2 {
+        font-size: 20px;
+    }
+    .why-athens-section h3 {
+        font-size: 8px;
+    }
+    .why-athens-section p {
         font-size: 8px;
     }
 }
