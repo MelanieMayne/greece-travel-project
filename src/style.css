@@ -114,14 +114,14 @@ footer li {
     padding: 100px;
     background-color: #F8F8F8;
 }
-.sightseeing-section h2 {
+.sightseeing-section h2, .photo-section h2 {
     font-weight: 700;
     font-size: 48px;
     line-height: 1.5;
     text-align: center;
     color: #272044;
 }
-.sightseeing-section h3 {
+.sightseeing-section h3, .photo-section h3 {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
@@ -192,6 +192,9 @@ footer li {
     margin: 32px 24px;
     text-align: center;
 }
+.photo-section {
+    padding: 100px;
+}
 @media (max-width: 800px) {
     header {
         padding: 60px;
@@ -221,13 +224,6 @@ footer li {
         grid-template-columns: 1fr;
         padding: 50px;
     }
-    .why-athens-section h2 {
-        font-size: 20px;
+    .grid-3-columns {
+        grid-template-columns: 1fr;
     }
-    .why-athens-section h3 {
-        font-size: 8px;
-    }
-    .why-athens-section p {
-        font-size: 8px;
-    }
-}
