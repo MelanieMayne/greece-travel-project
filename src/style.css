@@ -224,8 +224,8 @@ footer li {
         grid-template-columns: 1fr;
         padding: 50px;
     }
-    .sightseeing-section h2 {
-        font-size: 40px;
+    .sightseeing-section {
+        padding: 50px;
     }
     .grid-3-columns {
         grid-template-columns: 1fr;
