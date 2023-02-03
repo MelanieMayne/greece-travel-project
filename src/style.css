@@ -224,7 +224,13 @@ footer li {
         grid-template-columns: 1fr;
         padding: 50px;
     }
+    .sightseeing-section h2 {
+        font-size: 40px;
+    }
     .grid-3-columns {
         grid-template-columns: 1fr;
+    }
+    .instagram-embeds {
+        justify-content: center;
     }
 }        
