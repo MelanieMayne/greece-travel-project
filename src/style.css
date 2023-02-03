@@ -213,6 +213,7 @@ footer li {
     }
     footer {
         padding: 50px;
+        grid-template-columns: 1fr;
     }
     footer h3 {
         font-size: 10px;
